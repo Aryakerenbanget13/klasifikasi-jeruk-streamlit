@@ -8,7 +8,7 @@ import os
 # Unduh model dari Google Drive jika belum ada
 model_path = 'model_kematangan.h5'
 if not os.path.exists(model_path):
-    url = 'https://drive.google.com/uc?id=1A2B3cXYZ456abc'  # Ganti dengan ID milikmu
+    url = 'https://drive.google.com/uc?id=1gdGHBfYZQ-5VoBFR0uot9DYu5YyLU3QG'
     gdown.download(url, model_path, quiet=False)
 
 # Load model CNN
